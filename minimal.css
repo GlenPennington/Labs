@@ -103,6 +103,7 @@ dt {
 th {
   color:#444;
   background:#d1d1e0;
+  halign:top;
 }
 
 img {
