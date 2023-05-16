@@ -78,7 +78,7 @@ table {
 
 th, td {
   text-align:left;
-  valign: top;
+  valign: middle;
   padding:5px 10px;
   border-bottom:2px solid #e5e5e5;
   border-left:2px solid #e5e5e5;
