@@ -77,7 +77,7 @@ table {
 }
 th {
   text-align:left;
-  v-align: middle;
+  vertical-align: middle;
   padding:5px 10px;
   border-bottom:2px solid #e5e5e5;
   border-left:2px solid #e5e5e5;
@@ -85,11 +85,11 @@ th {
   border-top:2px solid #e5e5e5;
   color:#444;
   background:#d1d1e0;
-  h-align:middle;
+  text-align:middle;
 }
 td {
   text-align:left;
-  valign:top;
+  vertical-align:top;
   padding:5px 10px;
   border-bottom:2px solid #e5e5e5;
   border-left:2px solid #e5e5e5;
