@@ -75,10 +75,21 @@ table {
   width:100%;
   border-collapse:collapse;
 }
-
-th, td {
+th {
   text-align:left;
   valign: middle;
+  padding:5px 10px;
+  border-bottom:2px solid #e5e5e5;
+  border-left:2px solid #e5e5e5;
+  border-right:2px solid #e5e5e5;
+  border-top:2px solid #e5e5e5;
+  color:#444;
+  background:#d1d1e0;
+  halign:middle;
+}
+td {
+  text-align:left;
+  valign:top;
   padding:5px 10px;
   border-bottom:2px solid #e5e5e5;
   border-left:2px solid #e5e5e5;
@@ -91,11 +102,6 @@ dt {
   font-weight:700;
 }
 
-th {
-  color:#444;
-  background:#d1d1e0;
-  halign:top;
-}
 
 img {
   max-width:100%;
