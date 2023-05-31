@@ -6,30 +6,36 @@ body {
   color:#727272;
   font-weight:400;
 }
-/* heading1 */
+/* heading1 margin:top right bottom left;*/
 h1 {
   color:#367AA7;
-  margin:0 0 20px;
+  margin:20px 0 20px 0;
   line-height:1.1;
   font-size:28px;
 }
 /* heading2 */
 h2 {
   color:#367AA7;
-  margin:0 0 20px;
+  margin:20px 0 20px 0;
   line-height:1.1;
   font-size:24px;
 }
 /* heading3 */
 h3 {
   color:#367AA7;
-  margin:0 0 20px;
+  margin:20px 0 20px 0;
   line-height:1.1;
   font-size:20px;
 }
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
+.figheading {
+  margin:20px 0 20px;
+  color:#367AA7;
+  font-weight:800;
+}
+
 
 /* a href code */
 a {
@@ -79,7 +85,6 @@ blockquote {
   border-left:1px solid #e5e5e5;
   margin:0;
   padding:0 0 0 20px;
-  font-style:italic;
 }
 /* code for coding */
 code, pre {
@@ -123,6 +128,23 @@ dt {
   color:#444;
   font-weight:700;
 }
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* img */
 img {
   max-width:100%;
@@ -158,4 +180,28 @@ hr {
   background:#e5e5e5;
   height:1px;
   margin:0 0 20px;
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #367AA7;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #dedee0;
+   width: 380px
+}
+.button:hover {
+	background-color: #676798;
+	color: #fff;
+}
+.button:active {
+  background-color: #d3d3e0;
+  box-shadow: 0 5px #d1d1e0;
+  transform: translateY(4px);
 }
