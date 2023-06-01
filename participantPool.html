@@ -1,27 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: "en-US" }}">
   <head>
 	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-3M20N6JMZB"></script>
-	<script>window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments);}
-  		gtag('js', new Date());
-  		gtag('config', 'G-3M20N6JMZB');
-	</script>  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3M20N6JMZB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3M20N6JMZB');
+</script>  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link rel="stylesheet" href="minimal.css">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
-	  <title>Liverpool Hope Deparment of Psychology Labs and Resources</title>
   </head>
   <body>
       <div class="wrapper">
 	      <header>
 		      <h2><a href="index.html">Psychology Labs and Resources</a></h2>
-		      <p><img src="Hope.png" alt="Logo"></p>
+		      p><img src="images/Hope.png" alt="Hope University Logo"></p>
 		      <h3><a href="https://www.hope.ac.uk/psychology/">Department of Psychology</a></h3>
     
          <p>
@@ -30,16 +32,17 @@
 			<li><a href="form.html">Lab Access Form</a></li>
 			<li> <a href="book.html">Book a Lab</a></li>
 			<li><a href="equipment.html">Psychology Equipment</a></li>
-			<li><a href="psychometrics.html">Psychometric Tests &amp; Tools</a></li>
+			<li><a href="psychometrics.html">Psychometric Tests and Tools</a></li>
 			<li> <a href="experimentbank.html">PsychoPy Experiment Bank</a></li>
 			<li> <a href="stimulusbanks.html">Stimulus Banks</a></li>
 			<li> <a href="qualtrics.html">Qualtrics</a></li>
 			<li> <a href="psychopy.html">PsychoPy Builder</a></li>
 			<li> <a href="stats.html">Lab Manuals &amp; Software</a></li>
-			<li> <a href="sona.html">Participant Scheme (SONA)</a></li>
+			<li> <a href="sona.html">Student Participant Scheme (SONA)</a></li>
 		</ul>
        
       </header>
+      
       <section>
         <h1>Psychology Participant Pool</h1>
 	      <h3>Getting involed with Psychology Research</h3>
@@ -47,27 +50,19 @@
         <p>We are always looking for volunteers to help out in our research studies. If you want to make a difference and help researchers make important discoveries that will benefit others, why not sign up to our Participant Pool?</p>
         <h3>What is the Participant Pool?</h3>
         <p>The Psychology Research Participant Pool is a group of people who have agreed to be contacted about future psychology studies in the Department of Psychology at Liverpool Hope University. Liverpool Hope will retain a list of potential participants on a secure database. When a researcher in Psychology at Hope requires participants for a study, they will obtain ethical clearance to use the panel and then an email will go out to all panel members to advertise the research opportunity.</p>
-	      	      <h3>Who can join the Pool?</h3>
-	      <p>Anyone over the age of 18 can join. </p>
 	      
-	      <h3>Will studies have ethical approval</h3>
-	      <p>Any research undertaken at Liverpool Hope University must have ethical clearance before it can proceed. If you want to know more about our <a href="https://www.hope.ac.uk/research/researchethics/">Research Ethics click this link</a>.
+	      <h3>Who can join the Pool?</h3>
+	      <p>Anyone over the age of 18 can join. </p>
 	      <h3>What kind of studies might I be asked to take part in?</h3>
 	      <p>It can be difficult to speculate about the nature of future studies. The types of study may vary from online experiments, online questionnaires, experiments in our laboratories, and interviews of focus groups.</p>
-	      <h3>Are out of-pocket expenses covered?</h3>
-	      <p>Policy here</p>
-	<h3>How often will I be contacted?</h3>
-	      <p>This depends on the number of studies running, and the type of people the researchers need to take part.</p>      <h3>What if I want to leave the Pool?</h3>
-	      <p>You may leave the Participant Pool at any time by contacting ???? </p>
-	      <h3>Im interested, how can I join the Pool?</h3>
-	      <p>LINK TO QUALTRICS questyionnaire</p>
+
                 <hr>
        </section>
       <footer>
-            <p>This project is maintained by <a href="https://github.com/HopeRDA">Dr Glen Pennington</a></p>
+            <p>This project is maintained by <a href="https://github.com/GlenPennington">Dr Glen Pennington</a></p>
             <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-    <script src="/assets/js/scale.fix.js"></script>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>  
